@@ -37,13 +37,13 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 1) `npx create-react-app my-portfolio`
 
 ### Clean & Create new components
-2) `mkdir src/components`
-3) `code src/components/About.js`
-4) Add the following in [About.js](./my-portfolio/src/components/About.js):
+1) `mkdir src/components`
+2) `code src/components/About.js`
+3) Add the following in [About.js](./my-portfolio/src/components/About.js):
 ```js
 export default function About() {}
 ```
-5) Import [About](./my-portfolio/src/components/About.js) into [App.js](./my-portfolio/src/App.js)
+4) Import [About](./my-portfolio/src/components/About.js) into [App.js](./my-portfolio/src/App.js)
 
 ```
 import logo from './logo.svg';
