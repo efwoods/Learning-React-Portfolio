@@ -17,7 +17,6 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 - [ ] [git](https://github.com/git-guides/install-git)
 - [ ] [VSCode](https://code.visualstudio.com/)
 
-
 ## Getting Started
 
 ### Creating Your Repository & Dev Environmnet
@@ -50,7 +49,9 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 ```
 
 5) Implement tailwind directly into your classes 
-`<h1 class="text-3xl font-bold underline">`
+- Example: `<h1 class="text-3xl font-bold underline">`
+- [Tailwindcss Reference](https://nerdcave.com/tailwind-cheat-sheet)
+- [Tailwind CSS IntelliSense for VsCode](https://open-vsx.org/vscode/item?itemName=bradlc.vscode-tailwindcss)
 
 ### Clean & Create new components
 1) `mkdir src/components`

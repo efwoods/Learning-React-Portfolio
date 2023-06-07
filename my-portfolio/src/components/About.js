@@ -18,13 +18,19 @@ export default function About() {
   </div>
 </div>
 
+<MyButton/>
+
+<div class="py-8 px-8 max-w-sm mx-auto text-white-100 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      container
+</div>
+
         </>
     )
 }
 
 function MyButton() {
     return (
-        <button>
+        <button class="py-8 px-8 max-w-sm mx-auto text-green-500 bg-black rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
             I'm a button
         </button>
     )
