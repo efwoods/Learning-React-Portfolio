@@ -1,37 +1,52 @@
-
+import headshot from "../images/butterflygarden.081c280c.jpeg"
 
 export default function About() {
-    return (
-        <>
-<div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="Woman's Face" />
-  <div class="text-center space-y-2 sm:text-left">
-    <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold ">
-        Erin Lindford
-      </p>
-      <p class="text-slate-500 font-medium">
-        Product Engineer
-      </p>
-    </div>
-    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
-  </div>
-</div>
+  let myName = "Evan Woods"
+  return (
+    <>
+      <section id="about" class="text-gray-400 bg-gray-900 body-font">
+        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center ">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+              Hi, I'm {myName}.
+              <br className="hidden lg:inline-block" />I love to build amazing
+              apps.
+            </h1>
+            <p className="mb-8 leading-relaxed">
+            I am a strong information technology professional and experienced software developer with a Bachelor of Engineering (B.E.) focused in Computer Engineering from Clemson University.
+            I spent 2 years developing full-stack applications for Boeing. 
+            </p>
+            <div className="flex justify-center">
+              <a
+                href="#contact"
+                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                Work With Me
+              </a>
+              <a
+                href="#projects"
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                See My Portfolio
+              </a>
+            </div>
+          </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img
+              className="object-cover object-center rounded"
+              alt="hero"
+              src={headshot}
+            />
+          </div>
+        </div>
+      </section>
 
-<MyButton/>
-
-<div class="py-8 px-8 max-w-sm mx-auto text-white-100 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-      container
-</div>
-
-        </>
-    )
+    </>
+  )
 }
 
 function MyButton() {
-    return (
-        <button class="py-8 px-8 max-w-sm mx-auto text-green-500 bg-black rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-            I'm a button
-        </button>
-    )
+  return (
+    <button class="py-8 px-8 max-w-sm mx-auto text-green-500 bg-black rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      I'm a button
+    </button>
+  )
 }

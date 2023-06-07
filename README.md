@@ -35,7 +35,9 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 ## Create A New React Project
 1) `npx create-react-app my-portfolio`
 
-### Install Tailwindcss
+### Styling with Tailwindcss & HeroIcons
+
+#### Install Tailwindcss
 - [Tailwindcss Installation Reference](https://tailwindcss.com/docs/installation)
 
 1) `npm install -D tailwindcss`
@@ -48,12 +50,22 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 @tailwind utilities;
 ```
 
-5) Implement tailwind directly into your classes 
+5) Implement tailwind directly into your html.  
 - Example: `<h1 class="text-3xl font-bold underline">`
 - [Tailwindcss Reference](https://nerdcave.com/tailwind-cheat-sheet)
 - [Tailwind CSS IntelliSense for VsCode](https://open-vsx.org/vscode/item?itemName=bradlc.vscode-tailwindcss)
 
-### Clean & Create new components
+#### Install HeroIcons
+- [HeroIcons](https://heroicons.com/)
+- [HeroIcons Installation Reference](https://github.com/tailwindlabs/heroicons)
+1) `npm install @heroicons/react`
+2) Select the JSX from any icon from [HeroIcons](https://heroicons.com/)
+3)  Import the icon directly into your component
+  - Example: `import { BeakerIcon } from '@heroicons/react/24/solid'`
+4) Use the icon as a component in your component:
+  - Example: `<BeakerIcon className="h-6 w-6 text-blue-500" />`
+
+### Clean & Create New Components
 1) `mkdir src/components`
 2) `code src/components/About.js`
 3) Add the following in [About.js](./my-portfolio/src/components/About.js):
