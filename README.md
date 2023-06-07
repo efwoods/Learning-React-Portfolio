@@ -36,6 +36,22 @@ A basic portfolio to showcase what you have learned! 👨🏻‍🎓
 ## Create A New React Project
 1) `npx create-react-app my-portfolio`
 
+### Install Tailwindcss
+- [Tailwindcss Installation Reference](https://tailwindcss.com/docs/installation)
+
+1) `npm install -D tailwindcss`
+2) `npx tailwindcss init`
+3) modify "tailwind.config.js" with   `content: ["./src/**/*.{html,js}"],`
+4) Add Tailwind directives to [index.css](./my-portfolio/src/index.css)
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+5) Implement tailwind directly into your classes 
+`<h1 class="text-3xl font-bold underline">`
+
 ### Clean & Create new components
 1) `mkdir src/components`
 2) `code src/components/About.js`
