@@ -31,13 +31,13 @@ export default function Footer() {
         <hr />
 
         <p class="footer__text">
-          © 2022 - Portfolio developed by
+          
           <a rel="noreferrer" href="https://github.com/efwoods" target="_blank">
-            Evan Woods
+          © 2023 - Portfolio developed by Evan Woods
           </a>
         </p>
 
-        <p class="mt-3 pt-3" />
+        {/* <p class="mt-3 pt-3" />
         <a
           class="github-button"
           href="https://github.com/sponsors/efwoods"
@@ -46,7 +46,7 @@ export default function Footer() {
           aria-label="Sponsor @efwoods on GitHub"
         >
           Sponsor
-        </a>
+        </a> */}
       </div>
     </footer>
   );
