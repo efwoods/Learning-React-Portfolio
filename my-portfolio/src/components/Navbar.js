@@ -1,6 +1,6 @@
 import { IdentificationIcon } from '@heroicons/react/24/solid'
 import React from "react";
-import QR from "../images/evanwoods-dev-qr.png"
+import QR from "../images/linkedin-qr.png"
 
 export default function Navbar() {
     return (
@@ -24,7 +24,7 @@ export default function Navbar() {
                     </a>
 
                     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-                        <a href="#projects" className="mr-5 hover:text-white">
+                        <a href="#projects" className="mr-5 hover:text-white text-neutral-400">
                             Portfolio
                         </a>
                     </nav>

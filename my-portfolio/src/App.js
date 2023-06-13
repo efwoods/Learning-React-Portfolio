@@ -4,14 +4,15 @@ import React from "react";
 import About from "./components/About"
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
-  name = "Evan"
   return (
     <main text-gray-400 bg-gray-900 body-font>
       <Navbar/>
-      <About name={name}/>
+      <About/>
       <Projects/>
+      <Footer/>
     </main>
   );
 }
