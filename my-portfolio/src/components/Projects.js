@@ -18,7 +18,7 @@ Below is a collection of past works.
                         <a
                             href={project.link}
                             key={project.image}
-                            className="sm:w-1/3 w-100 p-4">
+                            className="sm:w-1/3 w-100 p-4 h-100">
                             <div className="flex relative">
                                 <img
                                     alt="gallery"
